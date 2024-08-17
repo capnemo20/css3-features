@@ -1,0 +1,17 @@
+.container, .inner{
+    height: 200px;
+    width: 200px;
+}
+.container{
+    border: 2px solid steelblue;
+    background-color: aquamarine;
+}
+.inner{
+    border: 2px solid brown;
+    background-color: palegoldenrod;
+    /* transform: scale(.25, .5) translateX(30px) translateY(50px) rotate(45deg) ; */
+    
+}
+.inner:hover{
+    transform:scale(.5) rotate(45deg);
+}
